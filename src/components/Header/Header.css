@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0px 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 20px 1rem 24px;
+  background: linear-gradient(135deg, #fafaf8 0%, #f8f6f0 100%);
+  border-bottom: 1px solid #e5e5e0;
+}
+
+.logo-icon {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.logo-text {
+  font-size: 2.25rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, #D17557 0%, #b8634a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  letter-spacing: -0.025em;
+}

@@ -1,0 +1,68 @@
+main {
+    /* padding: 48px 30px 10px; */
+    max-width: 800px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #fafaf8 0%, #f8f6f0 100%);
+    min-height: 100vh;
+}
+
+.add-ingredient {
+    display: flex;
+    justify-content: center;
+    gap: 12px;  
+    height: 48px;
+    margin-bottom: 32px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0px 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.add-ingredient > input {
+    border-radius: 8px;
+    border: 2px solid #e5e5e0;
+    padding: 12px 16px;
+    box-shadow: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+    flex-grow: 1;
+    min-width: 150px;
+    max-width: 400px;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    font-family: 'Inter', sans-serif;
+}
+
+.add-ingredient > input:focus {
+    outline: none;
+    border-color: #D17557;
+    box-shadow: 0 0 0 3px rgba(209, 117, 87, 0.1);
+}
+
+.add-ingredient > input::placeholder {
+    color: #9CA3AF;
+}
+
+.add-ingredient > button {
+    font-family: 'Inter', sans-serif;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(135deg, #D17557 0%, #b8634a 100%);
+    color: #fafaf8;
+    width: 160px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0px 2px 4px 0px rgba(209, 117, 87, 0.3);
+}
+
+.add-ingredient > button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 4px 8px 0px rgba(209, 117, 87, 0.4);
+}
+
+.add-ingredient > button::before {
+    content: "+";
+    margin-right: 6px;
+    font-weight: 700;
+}
