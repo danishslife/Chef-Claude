@@ -1,5 +1,5 @@
 import React from "react";
-import "./body.css";
+import "./Body.css";
 import ClaudeRecipe from "../ClaudeRecipe/ClaudeRecipe";
 import Ingredientlist from "../IngredientList/IngredientList";
 import { getRecipeFromChefClaude } from "../../services/claudeApi";
